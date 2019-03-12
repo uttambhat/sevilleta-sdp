@@ -1,0 +1,69 @@
+#num_res
+5
+
+#num_body_states
+100
+
+#num_cache_states
+500
+
+#number of actions
+6
+
+#time horizon
+100
+
+#kmax
+10
+
+#tmax_bout
+18000.;
+
+#velocity
+2.; 
+
+#number of configurations for ksim
+100000
+
+#alpha[num_res]
+0.02 0.01 0.02 0.01 0.01
+#0.015 0.04
+
+#c[num_res]
+0.430108 1.72117 0.129032 0.515996 1.53846
+#0.5 0.25
+
+#resgain[num_res]
+15. 21. 15. 21. 25.
+#15. 21.
+
+#digestibility[num_res]
+0.5 0.75 0.5 0.75 0.9
+
+#cacheability[num_res]
+0. 1. 0. 1. 0.
+
+#ht[num_res]
+0.50 0.1 0.5 1. 1.5
+#0.5. 1.0
+
+#mortality[num_res+1]
+0. 0.02 0.05 0.02 0.05 0.1
+
+#tid[combinations]
+#0 0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3 4 4 4 4
+0 0 1 2 3 4
+
+#tweight[combinations]
+#0. 0.25 0.5 0.75 1. 0.25 0.5 0.75 1. 0.25 0.5 0.75 1. 0.25 0.5 0.75 1. 0.25 0.5 0.75 1.
+0. 1. 1. 1. 1. 1.
+
+#stomach capacity
+50
+
+#carry capacity
+100
+
+#cost of staying at home and cost of each action [num_res + 1]
+10 20 25 20 25 30
+
