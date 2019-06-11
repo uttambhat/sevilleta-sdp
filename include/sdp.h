@@ -1,6 +1,5 @@
 #ifndef SDP_H
 #define SDP_H
-#endif
 
 #include <stdio.h>
 double max(double *values, size_t n);
